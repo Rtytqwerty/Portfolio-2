@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: #F5F5F5;
+    padding-top: 200px;
+}
+
+h1, p {
+    margin: 0;
+}
+
+main {
+    display: flex;
+}
+
+.container {
+    max-width: 1512px;
+    width: 100%;
+    margin-inline: auto;
+    background: #fff;
+    padding: 80px;
+}
+.nav {
+    padding-top: 60px;
+    margin-bottom: 128px;
+}
+
+.ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+.li {
+    list-style: none;
+}
+.link {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.info {
+   width: 728px;
+}
+.title, h1 {
+    font-weight: 700;
+    font-size: 87px;
+    line-height: 90px;
+    color: #000000;
+}
+
+.title-name{
+    display: flex;
+    gap: 10px;
+}
+.description {
+    margin-top: 40px;
+    margin-bottom: 52px;
+    font-weight: 500;
+    font-size: 29px;
+    line-height: 45px;
+    color: #6B6868;
+}
+.links {
+    display: flex;
+    gap: 38px;
+}
+.link-primary {
+    display: inline-block;
+    border: 2px solid #000000;
+    padding: 30px 50px;
+    background: #fff;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
+}
+.link-secondary {
+    background: #000000;
+    border: 2px solid #000000;
+    display: inline-block;
+    padding: 30px 50px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+}
+.photo {
+    max-width: 500px;
+    gap: 128px;
+}
+
+.photo img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0 0 0 250px;
+    border: 7px solid #000;
+    position: relative;
+}
+
+.image {
+    position: relative;
+}
+
+.cover {
+    width: 100%;
+    height: calc(100% - 40px);
+    height: 100%;
+    background: #000;;
+    border-radius: 0 0 0 250px;
+    right: -10px;
+    top: -10px;
+}
